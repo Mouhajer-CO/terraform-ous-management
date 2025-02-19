@@ -1,0 +1,22 @@
+[
+    {
+        "name": "Sandbox",
+        "tags": {
+            "ou-description": "Sandbox Description",
+            "ou-cost-centre": "123456789",
+            "ou-business-unit": "OU - X"
+        },
+        "policies": [],
+        "parent_name": "Root"
+    },
+    {
+        "name": "Workloads",
+        "tags": {
+            "ou-description": "Workloads Description",
+            "ou-cost-centre": "123456789",
+            "ou-business-unit": "OU - Z"
+        },
+        "policies": ["workloads_policy_y", "workloads_policy_z"],
+        "parent_name": "Root"
+    }
+]
